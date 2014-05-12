@@ -1,0 +1,34 @@
+{
+  "name": "dexonline",
+  "version": "0.0.0",
+  "description": "Interface to dexonline.ro service",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/radubogdan/node-dexonline.git"
+  },
+  "keywords": [
+    "dex",
+    "dexonline",
+    "dictionar",
+    "explicativ",
+    "limba",
+    "romana"
+  ],
+  "author": "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radubogdan/node-dexonline/issues"
+  },
+  "homepage": "https://github.com/radubogdan/node-dexonline",
+  "dependencies": {
+    "request": "*",
+    "cheerio": "*"
+  }
+}
