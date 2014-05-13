@@ -1,3 +1,5 @@
 var dex = require('../index.js');
 
-console.log(dex.definitie('Internet'));
+dex.definitie('Internet', function(err, def) {
+    console.log(err || def);
+});
