@@ -1,8 +1,11 @@
 {
   "name": "dexonline",
-  "version": "0.0.0",
-  "description": "Interface to dexonline.ro service",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Interface to the dexonline.ro service",
+  "main": "lib/index.js",
+  "bin": {
+    "dexonline": "bin/dexonline"
+  },
   "directories": {
     "test": "test"
   },
