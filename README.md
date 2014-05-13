@@ -1,4 +1,12 @@
 node-dexonline
 ==============
 
-Search definitions for romanian words directly into terminal
+WIP (Module + README)
+
+Search definitions for romanian words and display them into the terminal.
+
+Example:
+
+```sh
+$ dexonline definitie Internet
+```
