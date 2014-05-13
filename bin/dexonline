@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+
+var dex = require('../lib/index.js');
+
+args = process.argv.slice(2);
+
+var exp = 'Prima opțiune trebuie să fie definitie sau text, iar a II-a cuvântul căutat.\n' +
+          'Exemplu: dexonline definitie Internet'
+
+if (args != 0 && args.length == 2) {
+    var suffix = args[0];
+    var word = args[1];
+
+    if(suffix == 'definitie') {
+        dex.definitie(word, function(err, res) {
+            console.log(err || res);
+        })
+    } else if (suffix == 'text') {
+        dex.text(word, function(err, res) {
+            console.log(err || res);
+        })
+    } else {
+        console.log(exp);
+    }
+} else {
+    console.log(exp);
+}
