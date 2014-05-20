@@ -1,6 +1,6 @@
 {
   "name": "dexonline",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Interface to the dexonline.ro service",
   "main": "lib/index.js",
   "bin": {
